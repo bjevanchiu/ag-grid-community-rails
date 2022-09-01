@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    ag-grid-community-rails (28.1.1)
+
+GEM
+  remote: https://ruby.taobao.org/
+  specs:
+    rake (13.0.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap-table-rails!
+  bundler (~> 2.3.7)
+  rake (~> 13.0.6)
