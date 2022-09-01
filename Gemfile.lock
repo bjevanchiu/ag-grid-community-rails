@@ -4,7 +4,7 @@ PATH
     ag-grid-community-rails (28.1.1)
 
 GEM
-  remote: https://ruby.taobao.org/
+  remote: https://gems.ruby-china.com/
   specs:
     rake (13.0.6)
 
@@ -12,6 +12,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-table-rails!
+  ag-grid-community-rails!
   bundler (~> 2.3.7)
-  rake (~> 13.0.6)
+  rake (>= 12.3.3)
+
+BUNDLED WITH
+   2.3.7
