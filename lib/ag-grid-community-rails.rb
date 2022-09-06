@@ -6,9 +6,9 @@ module Ag
     module Community
       module Rails
         if ::Rails.version < "3.1"
-          require "bootstrap-table-rails/railtie"
+          require "ag-grid-community-rails/railtie"
         else
-          require "bootstrap-table-rails/engine"
+          require "ag-grid-community-rails/engine"
         end
       end
     end
